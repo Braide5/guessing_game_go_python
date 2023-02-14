@@ -6,3 +6,7 @@ The developers involved in this repository:
 
 - Katerina Braide
 - Simon Samuel
+
+```python
+print("We're awesome!")
+```
