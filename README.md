@@ -9,4 +9,7 @@ The developers involved in this repository:
 
 ```python
 print("We're awesome!")
+
+for i in range (100):
+    print(f"The value of i is {i}")
 ```
