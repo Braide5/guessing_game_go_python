@@ -7,8 +7,6 @@ func main() {
 	fmt.Println("welcome to the amazing game!")
 	random_number = randint(0, 20)
 
-
-
 	while:
 	guess = int(input("enter a number between 0 and 20"))
 
