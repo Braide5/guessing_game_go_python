@@ -8,7 +8,7 @@ The developers involved in this repository:
 - Simon Samuel
 
 ```python
-print("We're awesome!")
+print("We're very awesome!")
 
 for i in range (100):
     print(f"The value of i is {i}")
