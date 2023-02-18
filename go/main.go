@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("welcome to the amazing game!")
+	fmt.Println("welcome to the amazing game!!")
 
 	// Creating a random number source using the current time
 	source := rand.NewSource(time.Now().UnixNano())
@@ -17,7 +17,7 @@ func main() {
 
 	// Getting a random number between 0 and 100
 	random_number := random_generator.Intn(100)
-	fmt.Println("Enter a number between 0 and 100")
+	fmt.Println("Enter a number between 0 and 100!")
 
 	for {
 
@@ -37,9 +37,9 @@ func main() {
 		// If the user enters a number less than 0 or greater than 100,
 		// we print an error message and continue
 		if guess < random_number {
-			fmt.Println("you guessed too low, please try again")
-		} else if guess > random_number {
-			fmt.Println("you guessed too high, please try again")
+			fmt.Println("you guessed too low, please try again!")
+		} else if guess > random_number {S
+			fmt.Println("you guessed too high, please try again!")
 		} else {
 			fmt.Println("you guessed correctly")
 			break
