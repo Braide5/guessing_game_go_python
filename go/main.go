@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func game() {
+func main() {
 	fmt.Println("welcome to the amazing game!!")
 
 	// Creating a random number source using the current time
