@@ -4,7 +4,16 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
+	"net/http"
 )
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, "welcome!")
+
+func main() {
+		http.HandleFunc("/", handler)
+		http.ListenAndServe(":8080", nil)
+	}
 
 func main() {
 	fmt.Println("welcome to the amazing game!!")
