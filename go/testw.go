@@ -11,10 +11,10 @@ func handler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "welcome!")
 }
 
-func main() {
-		http.HandleFunc("/", handler)
-		http.ListenAndServe(":8080", nil)
-	}
+//func () {
+//		http.HandleFunc("/", handler)
+//		http.ListenAndServe(":8080", nil)
+//	}
 
 func main() {
 	fmt.Println("welcome to the amazing game!!")
@@ -42,17 +42,18 @@ func main() {
 		if err != nil {
 			fmt.Println("Please enter a valid number")
 			continue
-		}
+		
 
-		// If the user enters a number less than 0 or greater than 100,
-		// we print an error message and continue
-		if guess < random_number {
+			// If the user enters a number less than 0 or greater than 100,
+			// we print an error message and continue
+			if guess < random_number {
 			fmt.Println("you guessed too low, please try again!")
-		} else if guess > random_number {S
+			} else if guess > random_number {
 			fmt.Println("you guessed too high, please try again!")
-		} else {
+			} else {
 			fmt.Println("you guessed correctly")
 			break
+			}
 		}
 	}
 }
